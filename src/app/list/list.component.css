@@ -1,0 +1,30 @@
+.lista_aut{
+  display: flex;
+  flex: 1 1 0;
+  background-color: lightslategray;
+  width: 80%;
+  margin: 20px auto auto;
+}
+table{
+  table-layout: fixed;
+  border: 1px solid black;
+  width: 100%;
+
+}
+tr{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-grow: 1;
+}
+th{
+  border: 1px solid black;
+  flex-grow: 1;
+  width: 25%;
+  background-color: lightsteelblue;
+}
+td{
+  padding-left: 4px;
+
+  width: 25%;
+}

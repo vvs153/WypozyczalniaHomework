@@ -1,0 +1,45 @@
+.formularz{
+  width: 70%;
+  margin: 20px auto auto;
+  border: 2px solid black;
+  padding: 6px;
+}
+.text{
+  display: block;
+  padding: 2px 4px;
+  font-weight: bold;
+
+}
+.opis{
+  padding: 0px;
+  margin: 10px;
+  display: inline-block;
+}
+.pole{
+  margin: 10px;
+  width: 50%;
+  max-height: 18px;
+
+}
+.pasek{
+  display: flex;
+  justify-content: space-between;
+
+}
+.formularz-button{
+  color: black;
+  border: 1px solid black;
+  padding: 2px 4px;
+  margin: 40px 80% 20px ;
+  text-align: center;
+  transition: all 1s ease;
+  background-color: cornflowerblue;
+
+}
+.formularz-button:hover{
+  color: mediumspringgreen;
+}
+.formularz-button:active{
+  color: darkgoldenrod;
+  background-color: midnightblue;
+}

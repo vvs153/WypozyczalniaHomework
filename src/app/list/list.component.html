@@ -1,0 +1,27 @@
+<p>Lista dostępnych pojazdów:</p>
+<div class="lista_aut">
+  <table>
+    <!--  HEAD  -->
+    <thead>
+    <tr> <!--table row - wiersz tabeli-->
+      <th>Nazwa</th>
+      <th>Marka</th>
+      <th>Numer rejestracyjny</th>
+      <th>Rocznik</th>
+      <th>Kolor</th>
+    </tr>
+    </thead>
+    <!--  BODY  -->
+    <!--  BODY  -->
+    <!--  BODY  -->
+    <tbody>
+    <tr *ngFor="let car of carList">
+      <td>{{car.nazwa}}</td>
+      <td>{{car.marka}}</td>
+      <td>{{car.nr_rejestracyjny}}</td>
+      <td>{{car.rocznik}}</td>
+      <td>{{car.kolor}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

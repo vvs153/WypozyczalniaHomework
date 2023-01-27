@@ -1,0 +1,41 @@
+.navigator{
+  width: 100%;
+  background-color: dimgrey;
+  padding: 16px 0px 16px 0px;
+
+}
+.logo{
+  font-weight: bold;
+  display: inline-block;
+  padding: 2px 4px;
+  border: 1px solid midnightblue;
+  background-color: darkgoldenrod;
+  border-radius: 4px;
+}
+.name{
+  display: inline-block;
+  padding: 2px 4px;
+}
+.button-list{
+  background-color: lightslategray;
+  padding: 10px 4px;
+
+}
+.navigator-button{
+  color: black;
+  border: 1px solid black;
+  padding: 2px 4px;
+  margin: 0px 2px 0px;
+  text-align: center;
+  transition: all 1s ease;
+  background-color: lightslategray;
+  float: right;
+}
+.navigator-button:hover{
+  color: deepskyblue;
+}
+.navigator-button:active{
+  color: darkgoldenrod;
+  background-color: midnightblue;
+}
+
